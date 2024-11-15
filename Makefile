@@ -1,7 +1,7 @@
 CFLAGS=-c -g -Wall -Werror
 CC=gcc
 
-all: info pinfo finfo pmod
+
 
 info: info.o
 	$(CC) -o info info.o
